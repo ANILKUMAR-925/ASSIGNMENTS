@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<style>
+    body{
+            border: 2px solid black;
+        }
+        header img{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            border: 2px solid orange;
+            margin-left: 10px;
+            float: left;
+        }
+        header span{
+            float: left;
+            border: 2px solid orange;
+            margin-top: 10px;
+            margin-left: 100px;
+            padding: 7px;
+            border-radius: 25px;
+            color: white;
+        }
+        header a{
+            float: right;
+            margin-top: 10px;
+            margin-right: 10px;
+            padding: 7px;
+            border: 2px solid orange;
+            border-radius: 25px;
+            text-decoration: none;
+            color: white;
+        }
+        header{
+            border-bottom: 2px solid black;
+            display: flow-root;
+            background-color: blueviolet;
+        }
+        header a:hover{
+            background-color: orange;
+            color: blueviolet;
+            color: white;
+        }
+        header a:active{
+            background-color: aqua;
+            color: white;
+        }
+        #outer{
+            margin: 20px 10px 10px 10px;
+            border: 2px solid orange;
+        }
+        #inner{
+            padding-bottom: 100px;
+            margin: 15px 10px 10px 10px;
+            border: 2px solid orange;
+        }
+        #inner p{
+            margin-left: 7px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h3{
+            margin-left: 15px;
+        }
+        form{
+            margin: 10px;
+        }
+        table{
+            height: 100%;
+            width: 100%;
+            border: 2px solid orange;
+            border-collapse: collapse;
+        }
+        tr{
+            border: 2px solid orange;
+        }
+        td{
+            border: 2px solid orange;
+            padding: 20px;
+        }
+        footer{
+            height: 65px;
+            border-top: 2px solid orange;
+        }
+        footer p{
+            margin: 0;
+            text-align: center;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        #checkbox{
+            margin: 10px 700px 10px 10px;
+        }
+        #submit{
+            display: block;
+            height: 35px;
+            width: 90px;
+            margin: 10px 0px 10px 850px;
+            border: 2px solid orange;
+        }
+        table input{
+            border: none;
+        }
+        footer a{
+            margin-left: 320px;
+            /* font-size: 20px; */
+        }
+</style>
+<body>
+    <header>
+        <img src="ass1logo.jpg" alt="There Is Some Error In Loading The Image">
+        <span>Snipex</span>
+        <a href="ass1contact.html" id="contact">CONTACT</a>
+    </header>
+    <div id="outer">
+        <div id="inner">
+            <p>
+                Thank you for taking the time to explore my portfolio. I hope you enjoyed learning about my work, skills, and approach to web development. Each project showcased here is a testament to my commitment to quality, innovation, and user-centric design.
+            </p>
+            <p>
+                Whether you’re looking to collaborate on a new project, need a fresh perspective on your current web presence, or just want to connect and share ideas, I’m always open to new opportunities and challenges. Let's create something amazing together!
+            </p>
+            <p>
+                Feel free to reach out to me via email, connect with me on LinkedIn, or follow my work on GitHub. I look forward to hearing from you and discussing how we can work together to achieve your goals.
+            </p>
+        </div>
+        <h3>FORM</h3>
+        <form action="backend.php">
+            <table>
+                <tr>
+                    <th><label for="name">NAME</label></th>
+                    <td><input type="text" id="name" required></td>
+                </tr>
+                <tr>
+                    <th><label for="email">EMAIL</label></th>
+                    <td><input type="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <th><label for="genre">FAVOURITE GENRE</label></th>
+                    <td><select name="genre" id="genre" required>
+                        <option value="hr">Horror</option>
+                        <option value="com">Comedy</option>
+                        <option value="west">Western</option>
+                        <option value="rom">Romantic</option>
+                        <option value="otr">Other</option>
+                    </select></td>
+                </tr>
+            </table>
+        </form>
+        <input type="checkbox" required id="checkbox">
+        <span>SUBSCRIBE TO OUR NEWSLETTER VIA EMAIL</span>
+        <input type="submit" id="submit">
+        <footer>
+        <p>Thank you again for visiting, and I hope to hear from you soon!</p>
+        <p>email :- anilkumar@snipex.ac.in</p>
+        <a href="#">Privacy policy</a>
+        <a href="#">Linkedin</a>
+        <a href="#">GitHub</a>
+        <a href="#">Instagram</a>
+    </footer>
+    </div>
+</body>
+</html>
