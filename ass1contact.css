@@ -1,0 +1,101 @@
+body{
+    border: 2px solid black;
+}
+header img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid orange;
+    margin-left: 10px;
+    float: left;
+}
+header span{
+    float: left;
+    border: 2px solid orange;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 7px;
+    border-radius: 25px;
+    color: white;
+}
+header a{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 7px;
+    border: 2px solid orange;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+}
+header{
+    border-bottom: 2px solid black;
+    display: flow-root;
+    background-color: blueviolet;
+}
+header a:hover{
+    background-color: orange;
+    color: blueviolet;
+    color: white;
+}
+header a:active{
+    background-color: aqua;
+    color: white;
+}
+#outer{
+    margin: 20px 10px 10px 10px;
+    border: 2px solid orange;
+}
+#inner{
+    padding-bottom: 100px;
+    margin: 15px 10px 10px 10px;
+    border: 2px solid orange;
+}
+#inner p{
+    margin-left: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    margin-left: 15px;
+}
+form{
+    margin: 10px;
+}
+table{
+    height: 100%;
+    width: 100%;
+    border: 2px solid orange;
+    border-collapse: collapse;
+}
+tr{
+    border: 2px solid orange;
+}
+td{
+    border: 2px solid orange;
+    padding: 20px;
+}
+footer{
+    height: 65px;
+    border-top: 2px solid orange;
+}
+footer p{
+    margin: 0;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#checkbox{
+    margin: 10px 700px 10px 10px;
+}
+#submit{
+    display: block;
+    height: 35px;
+    width: 90px;
+    margin: 10px 0px 10px 850px;
+    border: 2px solid orange;
+}
+table input{
+    border: none;
+}
+footer a{
+    margin-left: 320px;
+}

@@ -1,0 +1,113 @@
+body{
+    border: 2px solid black;
+}
+header img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid orange;
+    margin-left: 10px;
+    float: left;
+}
+header span{
+    float: left;
+    border: 2px solid orange;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 7px;
+    border-radius: 25px;
+    color: white;
+}
+header a{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 7px;
+    border: 2px solid orange;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+}
+header{
+    border-bottom: 2px solid black;
+    display: flow-root;
+    background-color: blueviolet;
+}
+header a:hover{
+    background-color: orange;
+    color: blueviolet;
+    color: white;
+}
+header a:active{
+    background-color: aqua;
+    color: white;
+}
+#box1 div{
+    padding: 150px 0px 250px 250px;
+    font-size: 60px;
+    font-family: cursive;
+    color: orange;
+}
+#box1 div span{
+    font-size: 30px;
+    
+}
+#box1{
+    margin: 20px 10px 10px 10px;
+    border: 4px solid orange;
+    background-image: url("ass1bgrd.jpg");
+    background-size: cover;
+}
+#box2 img{
+    float: right;
+    height: 500px;
+}
+#box2{
+    display: flow-root;
+    margin: 10px;
+}
+#about{
+    border: 2px solid orange;
+    margin-right: 1000px;
+    padding-bottom: 79px;
+}
+h3{
+    text-align: center;
+}
+h4{
+    margin-left: 20px;
+}
+p{
+    margin-left: 20px;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#box3 img{
+    height: 500px;
+    width: 750px;
+    float: left;
+}
+#box3{
+    display: flow-root;
+    margin: 10px;
+}
+#project{
+    margin-left: 1000px;
+    border: 2px solid orange;
+    padding-bottom: 150px;
+}
+iframe{
+    width: 1858px;
+    margin: 10px;
+    margin-right:20px;
+}
+footer{
+    border-top: 2px solid black;
+}
+footer p{
+    text-align: center;
+    margin: 0;
+}
+footer a{
+    margin-left: 320px;
+    font-size: 20px;
+}
