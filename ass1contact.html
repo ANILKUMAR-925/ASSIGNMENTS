@@ -119,7 +119,7 @@
                 Thank you for taking the time to explore my portfolio. I hope you enjoyed learning about my work, skills, and approach to web development. Each project showcased here is a testament to my commitment to quality, innovation, and user-centric design.
             </p>
             <p>
-                Whether you’re looking to collaborate on a new project, need a fresh perspective on your current web presence, or just want to connect and share ideas, I’m always open to new opportunities and challenges. Let's create something amazing together!
+                Whether you are looking to collaborate on a new project, need a fresh perspective on your current web presence, or just want to connect and share ideas, I am always open to new opportunities and challenges. Let's create something amazing together!
             </p>
             <p>
                 Feel free to reach out to me via email, connect with me on LinkedIn, or follow my work on GitHub. I look forward to hearing from you and discussing how we can work together to achieve your goals.
@@ -150,7 +150,8 @@
         </form>
         <input type="checkbox" required id="checkbox">
         <span>SUBSCRIBE TO OUR NEWSLETTER VIA EMAIL</span>
-        <input type="submit" id="submit">
+        <label for="submit">SUBMIT</label>
+        <input type="submit" id="submit" value="submit" name="submit">
         <footer>
         <p>Thank you again for visiting, and I hope to hear from you soon!</p>
         <p>email :- anilkumar@snipex.ac.in</p>
@@ -160,5 +161,10 @@
         <a href="#">Instagram</a>
     </footer>
     </div>
+    <script>
+        function submitForm() {
+            window.alert("Form Submitted")
+        }
+    </script>
 </body>
 </html>
