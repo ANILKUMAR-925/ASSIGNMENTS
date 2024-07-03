@@ -1,37 +1,36 @@
-body{
-    border: 2px solid black;
-}
+
 header img{
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    border: 2px solid orange;
-    margin-left: 10px;
+    margin-left: 15px;
     float: left;
 }
-header span{
+#sitename{
     float: left;
-    border: 2px solid orange;
-    margin-top: 10px;
-    margin-left: 100px;
-    padding: 7px;
-    border-radius: 25px;
     color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px ;
+    margin-top: 6px;
+    margin-left: 100px;
+    text-transform: uppercase;
 }
-header a{
+#contact{
     float: right;
-    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 25px ;
+    margin-top: 6px;
     margin-right: 10px;
-    padding: 7px;
-    border: 2px solid orange;
     border-radius: 25px;
     text-decoration: none;
-    color: white;
+    color:white;
+    text-transform: uppercase;
 }
 header{
-    border-bottom: 2px solid black;
     display: flow-root;
     background-color: blueviolet;
+    padding: 5px 0px;
 }
 header a:hover{
     background-color: orange;
@@ -54,7 +53,6 @@ header a:active{
 }
 #box1{
     margin: 20px 10px 10px 10px;
-    border: 4px solid orange;
     background-image: url("ass1bgrd.jpg");
     background-size: cover;
 }
@@ -68,7 +66,7 @@ header a:active{
 }
 #about{
     border: 2px solid orange;
-    margin-right: 1000px;
+    margin-right: 770px;
     padding-bottom: 79px;
 }
 h3{
@@ -91,7 +89,7 @@ p{
     margin: 10px;
 }
 #project{
-    margin-left: 1000px;
+    margin-left: 770px;
     border: 2px solid orange;
     padding-bottom: 150px;
 }
@@ -99,9 +97,6 @@ iframe{
     width: 1858px;
     margin: 10px;
     margin-right:20px;
-}
-footer{
-    border-top: 2px solid black;
 }
 footer p{
     text-align: center;
