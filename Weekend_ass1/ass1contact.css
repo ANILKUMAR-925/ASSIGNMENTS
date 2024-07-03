@@ -38,9 +38,8 @@ header a:hover{
     color: blueviolet;
     color: white;
 }
-header a:active{
+header a{
     background-color: aqua;
-    color: white;
 }
 #outer{
     margin: 20px 10px 10px 10px;
