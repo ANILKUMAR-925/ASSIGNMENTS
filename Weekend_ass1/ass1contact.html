@@ -27,7 +27,7 @@
             <table>
                 <tr>
                     <th><label for="name">NAME</label></th>
-                    <td><input type="text" id="name" required></td>
+                    <td><input type="text" id="name" required/></td>
                 </tr>
                 <tr>
                     <th><label for="email">EMAIL</label></th>
@@ -48,7 +48,7 @@
         <input type="checkbox" id="checkbox" required>
         <span>SUBSCRIBE TO OUR NEWSLETTER VIA EMAIL</span>
         <label for="submit">SUBMIT</label>
-        <input type="submit" id="submit" value="submit" name="submit">
+        <input type="submit" id="submit" value="submit" name="submit" onclick="submit()">
         <footer>
         <p>Thank you again for visiting, and I hope to hear from you soon!</p>
         <p>email :- anilkumar@snipex.ac.in</p>
@@ -58,5 +58,10 @@
         <a href="#">Instagram</a>
     </footer>
     </div>
+    <script>
+        function submit(){
+        alert("The Form has been Submitted.");
+        };
+    </script>
 </body>
 </html>
