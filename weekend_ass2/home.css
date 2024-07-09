@@ -2,18 +2,19 @@
     margin: 0;
     padding: 0;
 }
-nav{
+body{
     height: 100vh;
-    width: 17vw;
+}
+nav{
+    height: 200%;
+    width: 17%;
     background-color: #E1D5E7;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
 }
 #sitename{
     display: flex;
-    /* justify-content: space-around; */
     align-items: center;
     padding-top: 10px;
     padding-left: 10px;
@@ -73,7 +74,6 @@ nav a:active{
     background-color: #7D577A;
 }
 #container{
-    height: 100vh;
     width: 90vw;
 }
 body{
@@ -113,7 +113,6 @@ body{
 #details{
     height: 35%;
     width: 100%;
-    /* background-color: red; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -153,8 +152,50 @@ sub{
     border: 1px solid #ECC4C2;
 }
 #dcust{
-    height: 40%;
+    height: 550px;
     width: 100%;
-    background-color: red;
-    margin: 0 20px;
+}
+table{
+    height: 90%;
+    width: 100%;
+}
+td{
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    margin-left: 40px;
+    padding-left: 30px;
+    margin-right: 20px;
+    background-color: #CCFFCC;
+    border-radius: 10px;
+}
+#ddept{
+    height: 550px;
+    width: 100%;
+}
+#ddept h1{
+    background-color: #DAEBFC;
+}
+#dmda h1{
+    background-color: #ECC4C2;
+}
+.cmda{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cmda div{
+    height: 270px;
+    width: 270px;
+    background-color: rgb(241, 213, 160);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
 }

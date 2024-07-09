@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+nav{
+    height: 100%;
+    width: 17%;
+    background-color: #E1D5E7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#sitename{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#sitename div{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    font-weight: 550;
+    font-family: sans-serif;
+    background-color: #7D577A;
+}
+#sitename span{
+    padding: 10px;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #7D577A;
+}
+nav a{
+    height: 70px;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #7D577A;
+    display: flex;
+    align-items: center;
+    border: 1px solid #7D577A;
+    border-radius: 10px;
+    border-bottom: none;
+}
+.mda{
+    border-bottom: 1px solid #7D577A;
+}
+#dept{
+    color: white;
+    background-color: #7D577A;
+}
+nav a img{
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+    border-right:  1px solid #7D577A;
+    border-radius: 10px;
+    fill: white;
+}
+nav a:active{
+    color: white;
+    background-color: #7D577A;
+}
+#container{
+    width: 90vw;
+}
+body{
+    display: flex;
+}
+#srch{
+    height: 75px;
+    background-color: #E1D5E7;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+#srch div{
+    height: 65%;
+    width: 350px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #7D577A;
+    border-radius: 7px;
+}
+#srch div input{
+    height: 100%;
+    width: 300px;
+    background-color: #E1D5E7;
+    border: none;
+    color: #7D577A;
+    padding-left: 10px;
+}
+#srch div img{
+    height: 50px;
+    width: 50px;
+    border-left: 1px solid #7D577A;
+    border-radius: 7px;
+}
+table{
+    height: 70%;
+    width: 100%;
+    text-align: center;
+}
+#scroll div{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #add1f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+#scroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative ;
+    top: 140px;
+}
+button{
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 25px;
+    font-weight: 500;
+}
