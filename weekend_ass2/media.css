@@ -6,12 +6,13 @@ body{
     height: 100vh;
 }
 nav{
-    height: 145%;
+    height: 100%;
     width: 17%;
     background-color: #E1D5E7;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: fixed;
 }
 #sitename{
     display: flex;
@@ -74,7 +75,9 @@ nav a:active{
     background-color: #7D577A;
 }
 #container{
-    width: 90vw;
+    width: 82vw;
+    position: relative;
+    left: 323.5px;
 }
 body{
     display: flex;
