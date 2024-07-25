@@ -120,13 +120,11 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin: auto; */
     color: white;
 }
 .fstn div{
     width: 60%;
     height: 80%;
-    /* margin: auto; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,11 +134,7 @@ button{
     justify-content: center;
     align-items: center;
     position: relative;
-    /* height: 100%;
-    width: 60%; */
 }
-/* 
- */
 .entmt video{
     position: absolute;
     z-index: -1;
